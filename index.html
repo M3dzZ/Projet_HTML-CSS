@@ -33,8 +33,10 @@
     .title {
       font-size: 18px;
       font-weight: bold;
+    }
 
-
+    .rectangle > .title {
+      margin-left: 20px;
     }
 
     .flex {
@@ -94,11 +96,15 @@
     .miniRectangle{
       height: 150px;
       width: 200px;
-      margin-top: 20px;
       background: white;
       border-radius: 20px;
+      margin: 20px;
     }
   
+    .parent {
+      display: flex;
+      flex-wrap: wrap;
+    }
   </style>
 </head>
 
@@ -131,12 +137,14 @@
     <div class="flex">
       <div class="rectangle" style="width: 70%; margin-right: 15px;">
         <div class="title">Hebergements a Marseille</div>
-        <div class ="miniRectangle"></div>
-        <div class ="miniRectangle"></div>
-        <div class ="miniRectangle"></div>
-        <div class ="miniRectangle"></div>
-        <div class ="miniRectangle"></div>
-        <div class ="miniRectangle"></div>
+        <div class="parent">
+          <div class="miniRectangle"></div>
+          <div class="miniRectangle"></div>
+          <div class="miniRectangle"></div>
+          <div class="miniRectangle"></div>
+          <div class="miniRectangle"></div>
+          <div class="miniRectangle"></div>
+        </div>
       </div>
 
       <div class="rectangle" style="width: 30%; margin-left: 15px;">

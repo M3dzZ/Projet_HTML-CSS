@@ -34,6 +34,8 @@
     .title {
       font-size: 18px;
       font-weight: bold;
+
+
     }
 
     .flex {
@@ -41,7 +43,7 @@
     }
 
     .master {
-      padding: 30px;
+      padding: 15px;
     }
 
     #footer {
@@ -63,12 +65,14 @@
       font-size: 14px;
 
     }
-    .header{
+
+    .header {
       display: flex;
       justify-content: space-between;
-      padding:0 20px
+      padding: 0 20px
     }
-    .box{
+
+    .box {
       all: unset;
       height: 80px;
       padding: 0 25px;
@@ -85,6 +89,20 @@
     .box:focus {
       border-top: 2px solid blue;
     }
+    .filtres{
+    display: flex;
+    font-weight: bold;
+    border: 1px black;
+    }
+  
+    .miniRectangle{
+      height: 150px;
+      width: 200px;
+      margin-top: 20px;
+      background: white;
+      border-radius: 20px;
+    }
+  
   </style>
 </head>
 
@@ -99,7 +117,7 @@
     </div>
   </div>
   <div class="master">
-    
+
     <div class="title">
       <div>Trouvez votre hebergement pour des vacances de reve</div>
     </div>
@@ -107,10 +125,22 @@
     <div class="subtitle">
       <div>En plein centre ville ou en pleine nature</div>
     </div>
-
+    <div class="filtres">
+      <a class="box">Filtres</a>
+      <div class="box" style="border-color:#737679;">Economique</div>
+      <div class="box">Familiale</div>
+      <div class="box">Romantique</div>
+      <div class="box">Animaux autorises</div>
+    </div>
     <div class="flex">
       <div class="rectangle" style="width: 70%; margin-right: 15px;">
         <div class="title">Hebergements a Marseille</div>
+        <div class ="miniRectangle"></div>
+        <div class ="miniRectangle"></div>
+        <div class ="miniRectangle"></div>
+        <div class ="miniRectangle"></div>
+        <div class ="miniRectangle"></div>
+        <div class ="miniRectangle"></div>
       </div>
 
       <div class="rectangle" style="width: 30%; margin-left: 15px;">

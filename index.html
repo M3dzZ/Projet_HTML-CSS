@@ -12,7 +12,7 @@
     }
 
     #logo {
-      margin-bottom: 20px;
+      margin: 20px 0;
     }
 
     .subtitle {
@@ -52,20 +52,54 @@
       background-color: #EEEEEE;
       justify-content: space-evenly;
       flex-wrap: wrap;
+      padding-top: 20px;
+      position: absolute;
+      bottom: 0;
 
     }
 
-    .h2 {
-      font-weight: bold;
-      font-size: 12px;
+    .menu {
+      display: flex;
+      font-size: 14px;
+
+    }
+    .header{
+      display: flex;
+      justify-content: space-between;
+      padding:0 20px
+    }
+    .box{
+      all: unset;
+      height: 80px;
+      padding: 0 25px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+    }
+
+    .box:hover {
+      color: blue;
+    }
+
+    .box:focus {
+      border-top: 2px solid blue;
     }
   </style>
 </head>
 
-<body>
-  <div class="master">
-    <img id="logo" src="assets/images/logo/Reservia.svg" alt="Site's logo">
 
+<body>
+  <div class="header">
+    <img id="logo" src="assets/images/logo/Reservia.svg" alt="Site's logo">
+    <div class="menu">
+      <button class="box">Hebergement</button>
+      <button class="box">Activites</button>
+      <a class="box" style="font-weight: bold;">S'inscire</a>
+    </div>
+  </div>
+  <div class="master">
+    
     <div class="title">
       <div>Trouvez votre hebergement pour des vacances de reve</div>
     </div>
@@ -88,14 +122,14 @@
   <div id="footer">
 
     <div class="box1">
-      <h2>A propos</h2>
+      <div class="title">A propos</div>
       <br>Fonctionement du site</br>
       <br>Conditions generales des ventes</br>
       <br>Donnees et confidentialite</br>
     </div>
 
     <div class="box2">
-      <h2>Nos Hebergements</h2>
+      <div class="title">Nos Hebergements</div>
       <br>Charges qualite</br>
       <br>Soumettre votre hotel</br>
     </div>
@@ -105,7 +139,6 @@
       <br>Centre d'aide</br>
       <br>Nous contacter</br>
     </div>
-
   </div>
 </body>
 

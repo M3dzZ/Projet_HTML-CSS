@@ -12,7 +12,7 @@
     }
 
     #logo {
-      margin: 20px 0;
+      margin-left: 20px;
     }
 
     .subtitle {
@@ -21,6 +21,8 @@
       top: 90px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 11px;
+      padding-bottom: 15px;
+      margin-left: 20px;
     }
 
     .rectangle {
@@ -33,9 +35,10 @@
     .title {
       font-size: 18px;
       font-weight: bold;
+      margin-left: 20px;
     }
 
-    .rectangle > .title {
+    .rectangle>.title {
       margin-left: 20px;
     }
 
@@ -87,23 +90,68 @@
     .box:focus {
       border-top: 2px solid blue;
     }
-    .filtres{
-    display: flex;
-    font-weight: bold;
-    border: 1px black;
+
+    .filtres {
+      display: flex;
+      font-weight: bold;
     }
   
-    .miniRectangle{
+    .minibox{
+      width: 150px;
+      align-items: center;
+      margin-top: 25px;
+      height: 35px;
+      border-color: #EEEEEE;
+      border-style:solid;
+      border-radius: 40px;
+      cursor: pointer;
+    }
+
+    .miniRectangle {
       height: 150px;
       width: 200px;
       background: white;
       border-radius: 20px;
       margin: 20px;
     }
-  
+
     .parent {
       display: flex;
       flex-wrap: wrap;
+    }
+
+    .searchBar {
+
+      height: 42px;
+      width: 200px;
+      border-radius: 0;
+      margin-left: 20px;
+      border-color: #EEEEEE;
+      border-style: solid;
+      padding-left: 20px;
+      margin-top: 15px;
+
+    }
+
+    .Rechercher {
+
+      height: 47px;
+      width: 100px;
+      margin-right: 60px;
+      background: blue;
+      border-style: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 0px 6px 6px 0px;
+      ;
+      font-weight: bold;
+
+    }
+
+    ::placeholder {
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
     }
   </style>
 </head>
@@ -127,12 +175,20 @@
     <div class="subtitle">
       <div>En plein centre ville ou en pleine nature</div>
     </div>
+    <div>
+      <div class="imgSearchBar"></div>
+      <input class="searchBar" placeholder="Marseille,France">
+      <button class="Rechercher">Rechercher</button>
+    </div>
+
     <div class="filtres">
       <a class="box">Filtres</a>
-      <div class="box" style="border-color:#737679;">Economique</div>
-      <div class="box">Familiale</div>
-      <div class="box">Romantique</div>
-      <div class="box">Animaux autorises</div>
+      <div class="boxFiltres"style="display:flex;">
+        <div class="minibox">Economique</div>
+        <div class="minibox">Familiale</div>
+        <div class="minibox">Romantique</div>
+        <div class="minibox">Animaux autorises</div>
+      </div>
     </div>
     <div class="flex">
       <div class="rectangle" style="width: 70%; margin-right: 15px;">
@@ -151,29 +207,29 @@
         <div class="title">Les plus populaires</div>
       </div>
     </div>
-  </div>
+    </input>
 
-  <div id="footer">
+    <div id="footer">
 
-    <div class="box1">
-      <div class="title">A propos</div>
-      <br>Fonctionement du site</br>
-      <br>Conditions generales des ventes</br>
-      <br>Donnees et confidentialite</br>
+      <div class="box1">
+        <div class="title">A propos</div>
+        <br>Fonctionement du site</br>
+        <br>Conditions generales des ventes</br>
+        <br>Donnees et confidentialite</br>
+      </div>
+
+      <div class="box2">
+        <div class="title">Nos Hebergements</div>
+        <br>Charges qualite</br>
+        <br>Soumettre votre hotel</br>
+      </div>
+
+      <div class="box3">
+        <div class="title">Assistance</div>
+        <br>Centre d'aide</br>
+        <br>Nous contacter</br>
+      </div>
     </div>
-
-    <div class="box2">
-      <div class="title">Nos Hebergements</div>
-      <br>Charges qualite</br>
-      <br>Soumettre votre hotel</br>
-    </div>
-
-    <div class="box3">
-      <div class="title">Assistance</div>
-      <br>Centre d'aide</br>
-      <br>Nous contacter</br>
-    </div>
-  </div>
 </body>
 
 </html>

@@ -5,155 +5,7 @@
   <meta charset="utf-8">
   <title>Reservia</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    #logo {
-      margin-left: 20px;
-    }
-
-    .subtitle {
-      display: flex;
-      font-size: 14px;
-      top: 90px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-size: 11px;
-      padding-bottom: 15px;
-      margin-left: 20px;
-    }
-
-    .rectangle {
-      border-radius: 20px;
-      background-color: #EEEEEE;
-      padding: 30px 25px;
-      margin: 20px 15px;
-    }
-
-    .title {
-      font-size: 18px;
-      font-weight: bold;
-      margin-left: 20px;
-    }
-
-    .rectangle>.title {
-      margin-left: 20px;
-    }
-
-    .flex {
-      display: flex;
-    }
-
-    .master {
-      padding: 15px;
-    }
-
-    #footer {
-      display: flex;
-      height: 150px;
-      width: 100%;
-      font-size: 12px;
-      background-color: #EEEEEE;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-      padding-top: 20px;
-    }
-
-    .menu {
-      display: flex;
-      font-size: 14px;
-
-    }
-
-    .header {
-      display: flex;
-      justify-content: space-between;
-      padding: 0 20px
-    }
-
-    .box {
-      all: unset;
-      height: 80px;
-      padding: 0 25px;
-      display: flex;
-      align-items: center;
-      position: relative;
-      cursor: pointer;
-    }
-
-    .box:hover {
-      color: blue;
-    }
-
-    .box:focus {
-      border-top: 2px solid blue;
-    }
-
-    .filtres {
-      display: flex;
-      font-weight: bold;
-    }
-  
-    .minibox{
-      width: 150px;
-      align-items: center;
-      margin-top: 25px;
-      height: 35px;
-      border-color: #EEEEEE;
-      border-style:solid;
-      border-radius: 40px;
-      cursor: pointer;
-    }
-
-    .miniRectangle {
-      height: 150px;
-      width: 200px;
-      background: white;
-      border-radius: 20px;
-      margin: 20px;
-    }
-
-    .parent {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .searchBar {
-
-      height: 42px;
-      width: 200px;
-      border-radius: 0;
-      margin-left: 20px;
-      border-color: #EEEEEE;
-      border-style: solid;
-      padding-left: 20px;
-      margin-top: 15px;
-
-    }
-
-    .Rechercher {
-
-      height: 47px;
-      width: 100px;
-      margin-right: 60px;
-      background: blue;
-      border-style: none;
-      color: white;
-      cursor: pointer;
-      border-radius: 0px 6px 6px 0px;
-      font-weight: bold;
-    }
-
-    ::placeholder {
-      color: black;
-      font-weight: bold;
-      font-size: 15px;
-    }
-  </style>
 </head>
-
 
 <body>
   <div class="header">
@@ -173,7 +25,7 @@
     <div class="subtitle">
       <div>En plein centre ville ou en pleine nature</div>
     </div>
-    <div>
+    <div class= "barreDeRecherche">
       <div class="imgSearchBar"></div>
       <input class="searchBar" placeholder="Marseille,France">
       <button class="Rechercher">Rechercher</button>
@@ -181,8 +33,8 @@
 
     <div class="filtres">
       <a class="box">Filtres</a>
-      <div class="boxFiltres"style="display:flex;">
-        <div class="minibox">Economique</div>
+      <div class="boxFiltres" style="display:flex;">
+        <div class="minibox" style=>Economique</div>
         <div class="minibox">Familiale</div>
         <div class="minibox">Romantique</div>
         <div class="minibox">Animaux autorises</div>

@@ -88,6 +88,15 @@
       border-radius: 40px;
       cursor: pointer;
     }
+    .box {
+      all: unset;
+      height: 80px;
+      padding: 0 25px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+    }
 
     .box:hover {
       color: blue;

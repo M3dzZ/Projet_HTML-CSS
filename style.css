@@ -74,10 +74,10 @@ body {
 }
 .minibox {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   width: 150px;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 22px;
   height: 35px;
   border-color: #eeeeee;
   border-style: solid;

@@ -1,0 +1,155 @@
+
+    body {
+      margin: 0;
+      font-family:Raleway;  
+    }
+
+    #logo {
+      margin-left: 20px;
+    }
+
+    .subtitle {
+      display: flex;
+      font-size: 14px;
+      top: 90px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 11px;
+      padding-bottom: 15px;
+      margin-left: 20px;
+    }
+
+    .rectangle {
+      border-radius: 20px;
+      background-color: #EEEEEE;
+      padding: 30px 25px;
+      margin: 20px 15px;
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 20px;
+    }
+
+    .rectangle>.title {
+      margin-left: 20px;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .master {
+      padding: 15px;
+    }
+
+    #footer {
+      display: flex;
+      height: 150px;
+      width: 100%;
+      font-size: 12px;
+      background-color: #EEEEEE;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding-top: 20px;
+    }
+
+    .menu {
+      display: flex;
+      font-size: 14px;
+
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px
+    }
+    
+    .filtres {
+      display: flex;
+      font-weight: bold;
+
+    }
+   
+    .boxFiltres{
+    display: flex;
+    
+    }
+    .minibox{
+     display: flex;
+      justify-content:flex-end;
+     width: 150px;
+      align-items: center;
+      margin-top: 25px;
+      height: 35px;
+      border-color: #EEEEEE;
+      border-style:solid;
+      border-radius: 40px;
+      cursor: pointer;
+    }
+
+    .box:hover {
+      color: blue;
+    }
+
+    .box:focus {
+      border-top: 2px solid blue;
+    }
+
+  
+
+    .miniRectangle {
+      height: 150px;
+      width: 200px;
+      background: white;
+      border-radius: 20px;
+      margin: 20px;
+    }
+
+    .parent {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .barreDeRecherche{
+        display: flex;
+        margin-left: 20px;
+
+    }
+    .searchBar {
+    
+      height: 42px;
+      width: 180px;
+      border-radius: 0;
+      border-color: #EEEEEE;
+      border-style: solid;
+      padding-left: 20px;
+
+    }
+    .imgSearchBar{
+    
+    height: 48px;
+    width: 45px;
+    border-radius: 15px 0px 0px 15px;
+    background:#EEEEEE;
+
+    }
+    .Rechercher {
+    
+      height: 47px;
+      width: 100px;
+      margin-right: 70px;
+      background: blue;
+      border-style: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 0px 15px 15px 0px;
+      font-weight: bold;
+     
+    }
+
+    ::placeholder {
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
+    }

@@ -127,6 +127,7 @@ body {
   margin-left: 20px;
 }
 .searchBar {
+  all: unset;
   height: 42px;
   width: 180px;
   border-radius: 0;

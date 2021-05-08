@@ -1,3 +1,11 @@
+:root {
+  --blue: #0065FC;
+  --light-blue: #DEEBFF;
+  --gray: #F2F2F2;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
 body {
   margin: 0;
   font-family: Raleway;
@@ -19,7 +27,7 @@ body {
 
 .rectangle {
   border-radius: 20px;
-  background-color: #eeeeee;
+  background-color: var(--gray);
   padding: 30px 25px;
   margin: 20px 15px;
 }
@@ -47,7 +55,7 @@ body {
   height: 150px;
   width: 100%;
   font-size: 12px;
-  background-color: #eeeeee;
+  background-color: var(--gray);
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 20px;
@@ -79,7 +87,7 @@ body {
   align-items: center;
   margin-top: 22px;
   height: 35px;
-  border-color: #eeeeee;
+  border-color: var(--gray);
   border-style: solid;
   border-radius: 40px;
   cursor: pointer;
@@ -95,17 +103,17 @@ body {
 }
 
 .box:hover {
-  color: blue;
+  color: var(--blue);
 }
 
 .box:focus {
-  border-top: 2px solid blue;
+  border-top: 2px solid var(--blue);
 }
 
 .miniRectangle {
   height: 150px;
   width: 200px;
-  background: white;
+  background: var(--white);
   border-radius: 20px;
   margin: 20px;
 }
@@ -122,7 +130,7 @@ body {
   height: 42px;
   width: 180px;
   border-radius: 0;
-  border-color: #eeeeee;
+  border-color: var(--gray);
   border-style: solid;
   padding-left: 20px;
 }
@@ -130,22 +138,22 @@ body {
   height: 48px;
   width: 45px;
   border-radius: 15px 0px 0px 15px;
-  background: #eeeeee;
+  background: var(--gray);
 }
 .Rechercher {
   height: 47px;
   width: 100px;
   margin-right: 70px;
-  background: blue;
+  background: var(--blue);
   border-style: none;
-  color: white;
+  color: var(--white);
   cursor: pointer;
   border-radius: 0px 15px 15px 0px;
   font-weight: bold;
 }
 
 ::placeholder {
-  color: black;
+  color: var(--black);
   font-weight: bold;
   font-size: 15px;
 }

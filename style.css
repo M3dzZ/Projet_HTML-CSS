@@ -14,6 +14,10 @@ body {
 #logo {
   margin-left: 20px;
 }
+#logoSearchBar{
+  width: 20px;
+  height: 20px;
+}
 
 .subtitle {
   display: flex;
@@ -88,8 +92,8 @@ body {
   border-style: solid;
   border-radius: 40px;
   cursor: pointer;
-
 }
+
 .box {
   all: unset;
   height: 80px;
@@ -137,6 +141,9 @@ body {
   padding-left: 20px;
 }
 .imgSearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 48px;
   width: 45px;
   border-radius: 15px 0px 0px 15px;

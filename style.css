@@ -119,6 +119,36 @@ body {
   border-top: 2px solid var(--blue);
 }
 
+
+.infoSearch {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+ 
+}
+.infoLogement{
+padding-left: 10px;
+}
+.icon{
+  display: flex;
+  border-radius: 50%; 
+  width: 21px;
+  height: 1px;
+  padding:  10px 0px;
+  border-color: var(--gray);
+  align-items: center;
+  justify-content: center;
+  border-style:solid;
+  
+}
+
+.fa-info{
+  color: var(--blue);
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
 .miniRectangle {
   height: 150px;
   width: 200px;

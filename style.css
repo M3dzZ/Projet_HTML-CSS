@@ -97,6 +97,18 @@ body {
   border-radius: 40px;
   cursor: pointer;
 }
+.iconFiltres{
+  display: flex;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--light-blue);
+  justify-content: center;
+  align-items: center;
+}
+.fas{
+  color:var(--blue)
+}
 
 .box {
   all: unset;

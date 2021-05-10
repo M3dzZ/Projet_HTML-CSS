@@ -109,7 +109,7 @@ body {
 }
 
 .box:hover {
-  color: var(--blue);
+  color: var(--black);
 }
 
 .minibox:hover {

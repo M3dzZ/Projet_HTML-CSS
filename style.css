@@ -23,6 +23,15 @@ body {
   height: 20px;
 }
 
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+
+}
 .subtitle {
   display: flex;
   font-size: 14px;
@@ -39,12 +48,50 @@ body {
   padding: 30px 25px;
   margin: 20px 15px;
 }
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  
 
-.title {
-  font-size: 18px;
+}
+.miniRectangle {
+  display: flex;
+  height: 150px;
+  width: 200px;
+  background: var(--white);
+  border-radius: 20px;
+  margin: 20px;
+  justify-content: center;
+
+}
+
+.imgRectangle{
+display: flex;
+justify-content: center
+}
+
+#imgMiniRectangle{
+  display: flex;
+  width: 190px;
+  height: 90px;
+  margin-top: 5px;
+  border-radius:15px 15px 0px 0px;
+
+}
+.AfficherPlus{
   font-weight: bold;
   margin-left: 20px;
+  margin-top: 20px;
 }
+
+.longRectangle {
+  width: auto;
+  height: 125px;
+  background: var(--white);
+  border-radius: 20px;
+  margin:20px;
+}
+
 
 .rectangle > .title {
   margin-left: 20px;
@@ -80,112 +127,6 @@ body {
   padding: 0 20px;
 }
 
-.filtres {
-  display: flex;
-  font-weight: bold;
-  padding: 10px 0px;
-}
-
-.minibox {
-  display: flex;
-  justify-content: flex-start;
-  padding-right: 10px;
-  margin: 0 10px;
-  align-items: center;
-  margin-top: 22px;
-  height: 35px;
-  border-color: var(--gray);
-  border-style: solid;
-  border-radius: 40px;
-  cursor: pointer;
-}
-.iconFiltres{
-  display: flex;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  background-color: var(--light-blue);
-  justify-content: center;
-  align-items: center;
-}
-.fas{
-  color:var(--blue)
-}
-
-.box {
-  all: unset;
-  height: 80px;
-  padding: 0 25px;
-  display: flex;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-}
-
-.box:hover {
-  color: var(--blue);
-}
-
-.minibox:hover {
-  color: var(--blue);
-}
-.box:focus {
-  border-top: 2px solid var(--blue);
-}
-
-
-.infoSearch {
-  display: flex;
-  align-items: center;
-  padding-left: 20px;
- 
-}
-.infoLogement{
-padding-left: 10px;
-}
-.icon{
-  display: flex;
-  border-radius: 50%; 
-  width: 21px;
-  height: 1px;
-  padding:  10px 0px;
-  border-color: var(--gray);
-  align-items: center;
-  justify-content: center;
-  border-style:solid;
-}
-
-.fa-info{
-  color: var(--blue);
-  font-size: 10px;
-  justify-content: center;
-  align-items: center;
-}
-
-.miniRectangle {
-  height: 150px;
-  width: 200px;
-  background: var(--white);
-  border-radius: 20px;
-  margin: 20px;
-}
-.AfficherPlus{
-  font-weight: bold;
-  margin-left: 20px;
-  margin-top: 30px;
-}
-
-.longRectangle {
-  width: 300px;
-  height: 125px;
-  background: var(--white);
-  border-radius: 20px;
-  margin: 20px;
-}
-.parent {
-  display: flex;
-  flex-wrap: wrap;
-}
 .barreDeRecherche {
   display: flex;
   margin-left: 20px;
@@ -219,6 +160,88 @@ padding-left: 10px;
   border-radius: 0px 15px 15px 0px;
   font-weight: bold;
 }
+.filtres {
+  display: flex;
+  font-weight: bold;
+}
+
+.minibox {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  padding-right: 10px;
+  margin: 0 10px;
+  align-items: center;
+  margin-top: 22px;
+  height: 35px;
+  border: 2px solid var(--gray);
+  border-radius: 40px;
+  cursor: pointer;
+  padding-left: 48px;
+}
+.iconFiltres {
+  display: flex;
+  position: absolute;
+  left: -2px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--light-blue);
+  justify-content: center;
+  align-items: center;
+}
+.fas {
+  color: var(--blue);
+}
+
+.box {
+  all: unset;
+  height: 80px;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.box:hover {
+  color: var(--blue);
+}
+
+.minibox:hover {
+  color: var(--blue);
+}
+.box:focus {
+  border-top: 2px solid var(--blue);
+}
+
+.infoSearch {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.infoLogement {
+  padding-left: 10px;
+}
+.icon {
+  display: flex;
+  border-radius: 50%;
+  width: 21px;
+  height: 1px;
+  padding: 10px 0px;
+  border-color: var(--gray);
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+}
+
+.fa-info {
+  color: var(--blue);
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
 
 ::placeholder {
   color: var(--black);

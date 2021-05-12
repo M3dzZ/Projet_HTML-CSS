@@ -114,6 +114,7 @@ body {
   background-color: var(--light-blue);
   justify-content: center;
   align-items: center;
+  margin-right: 10px;
 }
 .fas {
   color: var(--blue);

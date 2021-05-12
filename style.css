@@ -28,9 +28,8 @@ body {
   font-weight: bold;
   margin-left: 20px;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
-
 }
 .subtitle {
   display: flex;
@@ -40,102 +39,6 @@ body {
   font-size: 11px;
   padding-bottom: 15px;
   margin-left: 20px;
-}
-
-.rectangle {
-  border-radius: 20px;
-  background-color: var(--gray);
-  padding: 30px 25px;
-  margin: 20px 15px;
-}
-.parent {
-  display: flex;
-  flex-wrap: wrap;
-
-}
-.miniRectangle {
-  display: flex;
-  height: 150px;
-  width: 200px;
-  background: var(--white);
-  border-radius: 20px;
-  margin: 20px;
-  justify-content: center;
-
-}
-
-.imgRectangle{
-display: flex;
-justify-content: flex-start;
-flex-direction: column;
-flex-wrap: wrap;
-font-size:14px;
-font-weight: bold ;
-}
-
-#imgMiniRectangle{
-  display: flex;
-  width: 190px;
-  height: 90px;
-  margin-top: 5px;
-  border-radius:15px 15px 0px 0px;
-}
-.AfficherPlus{
-  font-weight: bold;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-.parentLongRectangle{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-
-}
-.longRectangle {
-  display: flex;
-  height: 110px;
-  width: 300px;
-  background: var(--white);
-  border-radius: 20px;
-  margin:20px;
-  font-size:14px;
-  font-weight: bold;
-}
-
-.parentImgLong{
-  display: flex;
-  
-}
-
-#imgLongRectangle{
-  display: flex;
-  width: 110px;
-  height: 110px;
-  border-radius:15px 0px 0px 15px;
-}
-
-
-.rectangle > .title {
-  margin-left: 20px;
-}
-
-.flex {
-  display: flex;
-}
-
-.master {
-  padding: 15px;
-}
-
-#footer {
-  display: flex;
-  height: 150px;
-  width: 100%;
-  font-size: 12px;
-  background-color: var(--gray);
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding-top: 20px;
 }
 
 .menu {
@@ -264,9 +167,146 @@ font-weight: bold ;
   align-items: center;
 }
 
-
 ::placeholder {
   color: var(--black);
   font-weight: bold;
   font-size: 15px;
 }
+.rectangle {
+  border-radius: 20px;
+  background-color: var(--gray);
+  padding: 30px 25px;
+  margin: 20px 15px;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.miniRectangle {
+  display: flex;
+  height: 150px;
+  width: 200px;
+  background: var(--white);
+  border-radius: 20px;
+  margin: 20px;
+  justify-content: center;
+}
+
+.imgRectangle {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#imgMiniRectangle {
+  display: flex;
+  width: 190px;
+  height: 90px;
+  margin-top: 5px;
+  border-radius: 15px 15px 0px 0px;
+}
+.AfficherPlus {
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.parentLongRectangle {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.longRectangle {
+  display: flex;
+  height: 110px;
+  width: 300px;
+  background: var(--white);
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.parentImgLong {
+  display: flex;
+}
+
+#imgLongRectangle {
+  display: flex;
+  width: 110px;
+  height: 110px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.rectangle > .title {
+  margin-left: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.master {
+  padding: 15px;
+}
+.Activites {
+  padding: 30px 15px 15px 15px;
+}
+.parentActivites {
+  padding: 15px 15px 40px 15px;
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px;
+  grid-template-areas:
+    "VieuxPort FortdePomegue ParcNationaldesCalanques Notre-Dame-de-la-Grade"
+    "VieuxPort IlesduFrioul ParcNationaldesCalanques ParcLongchamp";
+}
+.parentActivites > * {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: var(--gray);
+}
+
+.VieuxPort {
+  grid-area: VieuxPort;
+}
+.FortdePomegue {
+  grid-area: FortdePomegue;
+}
+.IlesduFrioul {
+  grid-area: IlesduFrioul;
+}
+.ParcNationaldesCalanques {
+  grid-area: ParcNationaldesCalanques;
+}
+.Notre-Dame-de-la-Grade {
+  grid-area: Notre-Dame-de-la-Grade;
+}
+.ParcLongchamp {
+  grid-area: ParcLongchamp;
+}
+.parentImgActivite {
+  display: flex;
+}
+#imgActivites {
+  display: flex;
+  width: 100px;
+  height: 100px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+  width: 100%;
+  font-size: 12px;
+  background-color: var(--gray);
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+  

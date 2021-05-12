@@ -248,11 +248,9 @@ body {
   display: flex;
 }
 
-#imgLongRectangle {
-  display: flex;
+.imgLongRectangle {
   width: 110px;
-  height: 110px;
-  border-radius: 15px 0px 0px 15px;
+  object-fit: cover;
 }
 
 .rectangle > .title {

@@ -242,6 +242,7 @@ body {
   margin: 20px;
   font-size: 14px;
   font-weight: bold;
+  overflow: hidden;
 }
 
 .parentImgLong {

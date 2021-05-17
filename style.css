@@ -90,6 +90,14 @@ form {
   font-weight: bold;
 }
 
+.title-filter{
+  height: 80px;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  color: var(--black);
+}
+
 .minibox {
   display: flex;
   position: relative;
@@ -227,7 +235,11 @@ color: var(--blue);
 .card-content {
   width: 100%;
   height: 40%;
-  padding: 10px;
+  padding: 5px 0 0 7px;
+}
+
+.long-card-content{
+  padding: 15px 30px 10px 15px;
 }
 
 .card-title {
@@ -238,6 +250,23 @@ color: var(--blue);
 .card-subtitle{
   font-size:12px;
   padding: 4px 0 0 0px;
+  display: flex;
+}
+
+.money-subtitle{
+  font-weight: bold;
+  padding-left: 3px
+}
+
+.star-long-card{
+  font-size: 12px;
+  padding: 20px 0 0 0;
+  bottom: 0;
+}
+
+.star-card{
+ font-size: 12px;
+ padding: 4px 0 0 0;
 }
 
 .card-footer {
@@ -280,12 +309,12 @@ color: var(--blue);
   display: flex;
 }
 
-.imgLongRectangle {
+.imgLong-card{
   width: 110px;
   object-fit: cover;
 }
 
-.rectangle > .title {
+.card > .title {
   margin-left: 20px;
 }
 

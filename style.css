@@ -175,26 +175,30 @@ form {
   font-size: 15px;
 }
 .card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
   border-radius: 20px;
   background-color: var(--gray);
-  padding: 30px 25px;
+  padding: 30px;
   min-width: 248px;
 }
 
 .AfficherPlus{
   cursor: pointer;
   border: none;
+  font-weight: bold;
 }
 
 .AfficherPlus:hover{
-color: var(--blue);
+  color: var(--blue);
 }
 
 .parent {
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
-  max-width: 744px;
-  min-width: 248px;
 }
 .small-card {
   display: flex;
@@ -202,8 +206,6 @@ color: var(--blue);
   flex-direction: column;
 
   height: 150px;
-  width: 200px;
-  margin: 20px;
 
   background: var(--white);
   border-radius: 20px;
@@ -275,23 +277,17 @@ color: var(--blue);
   font-weight: bold;
 }
 
-.AfficherPlus {
-  font-weight: bold;
-  margin-left: 20px;
-  margin-top: 20px;
-}
 .parentLong-card{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  gap: 40px;
 }
 .long-card {
   display: flex;
   height: 110px;
-  width: 300px;
   background: var(--white);
   border-radius: 20px;
-  margin: 20px;
   font-size: 14px;
   overflow: hidden;
   border: 4px solid white;
@@ -306,13 +302,9 @@ color: var(--blue);
   object-fit: cover;
 }
 
-.card > .title {
-  margin-left: 20px;
-}
-
 .flex {
   display: flex;
-  column-gap: 30px;
+  gap: 30px;
 }
 
 .master {
@@ -384,6 +376,10 @@ color: var(--blue);
 
 /* breakpoint for mobile devices */
 @media screen and (max-width: 375px) {
+  .flex {
+    flex-direction: column-reverse;
+  }
+
   .title-filter{
     min-width: 40px;
   }

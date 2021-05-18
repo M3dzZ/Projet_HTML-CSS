@@ -379,6 +379,12 @@ form {
     padding: 0;
   }
 
+  .card:last-child {
+    transform: translateX(-30px);
+    width: 100% !important;
+    border-radius: 0;
+  }
+
   .small-card {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   }

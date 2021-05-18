@@ -15,9 +15,6 @@ body {
   font-family: Raleway;
 }
 
-#logo {
-  margin-left: 20px;
-}
 #logoSearchBar {
   width: 20px;
   height: 20px;
@@ -26,7 +23,6 @@ body {
 .title {
   font-size: 18px;
   font-weight: bold;
-  margin-left: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,7 +33,6 @@ body {
   top: 90px;
   font-size: 11px;
   padding-bottom: 15px;
-  margin-left: 20px;
 }
 
 nav {
@@ -53,7 +48,6 @@ header {
 
 form {
   display: flex;
-  margin-left: 20px;
 }
 .searchBar {
   all: unset;
@@ -151,7 +145,6 @@ form {
 .infoSearch {
   display: flex;
   align-items: center;
-  padding-left: 20px;
 }
 .infoLogement {
   padding-left: 10px;
@@ -184,7 +177,6 @@ form {
   border-radius: 20px;
   background-color: var(--gray);
   padding: 30px 25px;
-  margin: 20px 15px;
   min-width: 248px;
 }
 
@@ -322,13 +314,13 @@ color: var(--blue);
 }
 
 .master {
-  padding: 15px;
+  padding: 15px 30px;
 }
 .Activites {
   padding: 30px 15px 15px 15px;
 }
 .parentActivites {
-  padding: 15px 15px 40px 15px;
+  padding: 15px 0 40px 0;
   max-height: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

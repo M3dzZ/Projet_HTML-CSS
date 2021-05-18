@@ -312,6 +312,7 @@ color: var(--blue);
 
 .flex {
   display: flex;
+  column-gap: 30px;
 }
 
 .master {

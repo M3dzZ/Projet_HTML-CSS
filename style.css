@@ -32,7 +32,6 @@ body {
   font-size: 14px;
   top: 90px;
   font-size: 11px;
-  padding-bottom: 15px;
 }
 
 nav {
@@ -84,7 +83,6 @@ form {
   flex-wrap: wrap;
   font-weight: bold;
   gap: 20px;
-  margin-top: 10px;
 }
 
 .title-filter{
@@ -313,13 +311,15 @@ color: var(--blue);
 }
 
 .master {
-  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 15px 30px 50px 30px;
 }
 .Activites {
   padding: 30px 15px 15px 15px;
 }
 .parentActivites {
-  padding: 15px 0 40px 0;
   max-height: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

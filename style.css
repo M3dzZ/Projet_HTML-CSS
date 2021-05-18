@@ -373,6 +373,16 @@ form {
 
 /* breakpoint for mobile devices */
 @media screen and (max-width: 375px) {
+  .card:first-child {
+    background-color: var(--white);
+    width: 100% !important;
+    padding: 0;
+  }
+
+  .small-card {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  }
+
   .flex {
     flex-direction: column-reverse;
   }

@@ -10,6 +10,10 @@
   padding-left: 1px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Raleway;

@@ -372,7 +372,7 @@ form {
 }
 
 /* breakpoint for mobile devices */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .card:first-child {
     background-color: var(--white);
     width: 100% !important;

@@ -385,6 +385,17 @@ form {
     grid-template-columns: 1fr;
   }
 
+  .parentActivites {
+    grid-template-columns: 1fr;
+    grid-template-areas: unset;
+    grid-template-rows: unset;
+  }
+
+  .parentActivites > * {
+    grid-area: unset;
+    max-height: 200px;
+  }
+
   #footer {
     flex-direction: column;
   }

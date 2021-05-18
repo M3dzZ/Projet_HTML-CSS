@@ -196,9 +196,9 @@ form {
 }
 
 .parent {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  flex-wrap: wrap;
 }
 .small-card {
   display: flex;
@@ -317,7 +317,6 @@ form {
   padding: 30px 15px 15px 15px;
 }
 .parentActivites {
-  max-height: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -380,6 +379,10 @@ form {
 
   .title-filter{
     min-width: 40px;
+  }
+
+  .parent {
+    grid-template-columns: 1fr;
   }
 
   #footer {

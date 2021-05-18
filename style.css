@@ -73,6 +73,7 @@ form {
   width: 45px;
   border-radius: 15px 0px 0px 15px;
   background: var(--gray);
+  min-width: 45px;
 }
 .Rechercher {
   height: 47px;
@@ -186,6 +187,7 @@ form {
   background-color: var(--gray);
   padding: 30px 25px;
   margin: 20px 15px;
+  min-width: 248px;
 }
 
 .AfficherPlus{
@@ -201,6 +203,8 @@ color: var(--blue);
 .parent {
   display: flex;
   flex-wrap: wrap;
+  max-width: 744px;
+  min-width: 248px;
 }
 .small-card {
   display: flex;
@@ -385,3 +389,12 @@ color: var(--blue);
   padding-top: 20px;
 }
   
+@media screen and ( max-width:375px)
+{
+  .filtres{
+    flex-direction: column;
+  }
+  .title-filter{
+    min-width: 40px;
+  }
+}

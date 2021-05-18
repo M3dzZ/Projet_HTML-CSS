@@ -41,12 +41,18 @@ body {
 nav {
   display: flex;
   font-size: 14px;
+  grid-area: nav;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 0 20px;
+  grid-template-areas: ". . nav";
+}
+
+#logo {
+  margin-top: 20px;
 }
 
 form {

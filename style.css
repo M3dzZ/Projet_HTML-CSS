@@ -455,7 +455,7 @@ form {
 
 
 /* breakpoint for ipad devices */
-@media screen and (max-width: 810px){
+@media screen and (min-width: 500px) and (max-width: 810px){
   
   .parent{
     grid-template-columns:1fr 1fr;

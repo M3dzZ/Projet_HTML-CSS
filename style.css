@@ -237,7 +237,11 @@ form {
 }
 
 .long-card-content{
-  padding: 15px 30px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 10px;
+  padding-left: 7px;
 }
 
 .card-title {

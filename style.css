@@ -207,7 +207,7 @@ form {
   justify-content: center;
   flex-direction: column;
 
-  height: 150px;
+  height: 180px;
 
   background: var(--white);
   border-radius: 20px;

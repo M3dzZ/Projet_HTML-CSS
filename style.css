@@ -449,4 +449,15 @@ form {
   #footer {
     flex-direction: column;
   }
+
+  
+}
+
+
+/* breakpoint for ipad devices */
+@media screen and (max-width: 810px){
+  
+  .parent{
+    grid-template-columns:1fr 1fr;
+  }
 }

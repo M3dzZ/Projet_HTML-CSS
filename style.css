@@ -74,6 +74,7 @@ form {
 }
 .Rechercher {
   height: 47px;
+  min-width: 47px;
   width: 100px;
   margin-right: 70px;
   background: var(--blue);
@@ -83,6 +84,12 @@ form {
   border-radius: 0px 15px 15px 0px;
   font-weight: bold;
 }
+
+.Rechercher > i {
+  color: var(--white);
+  display: none;
+}
+
 .filtres {
   display: inline-flex;
   flex-wrap: wrap;
@@ -398,6 +405,14 @@ form {
 
   nav { grid-area: nav; }
 
+  .Rechercher {
+    border-radius: 15px;
+    transform: translateX(-15px);
+  }
+
+  .Rechercher > :first-child { display: none; }
+  .Rechercher > :last-child { display: block; }
+
   .box {
     justify-content: center;
   }
@@ -450,13 +465,13 @@ form {
     flex-direction: column;
   }
 
-  
+
 }
 
 
 /* breakpoint for ipad devices */
 @media screen and (max-width: 810px){
-  
+
   .parent{
     grid-template-columns:1fr 1fr;
   }

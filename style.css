@@ -495,8 +495,9 @@ form {
     max-height: 200px;
   }
 
-  #footer {
+  #footer > .wrapper {
     flex-direction: column;
+    gap: 30px;
   }
 
 

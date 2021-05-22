@@ -167,7 +167,7 @@ form {
 .minibox:hover {
   color: var(--blue);
 }
-.box:focus {
+.box:hover {
   border-top: 2px solid var(--blue);
 }
 

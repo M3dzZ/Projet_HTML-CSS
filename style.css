@@ -225,14 +225,14 @@ form {
 
 .parent {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
   gap: 20px;
 }
 .small-card {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  width: 100%;
   height: 180px;
 
   background: var(--white);

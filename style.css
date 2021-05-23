@@ -380,7 +380,9 @@ main {
 .Activites {
   padding: 30px 15px 15px 15px;
 }
+
 .parentActivites {
+  margin-top: 20px;
   height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

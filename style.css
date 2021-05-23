@@ -550,5 +550,16 @@ footer h1 {
 
 
 /* breakpoint for ipad devices */
-@media screen and (min-width: 500px) and (max-width: 810px){
+@media screen and (min-width: 700px) and (max-width: 1000px){
+  .parentActivites {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: unset;
+    grid-template-rows: unset;
+    height: 100%;
+  }
+
+  .parentActivites > * {
+    grid-area: unset;
+    max-height: 200px;
+  }
 }

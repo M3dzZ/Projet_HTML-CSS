@@ -55,8 +55,14 @@ a {
   justify-content: flex-start;
 }
 
+#signup {
+  color: var(--blue);
+  font-weight: 900;
+}
+
 #logo, #signup {
   border: none;
+  padding: 0;
 }
 
 nav {
@@ -102,6 +108,11 @@ form {
   background: var(--gray);
   min-width: 45px;
 }
+
+.imgSearchBar i, .card > i {
+  color: var(--black);
+}
+
 .Rechercher {
   height: 47px;
   min-width: 47px;
@@ -350,6 +361,14 @@ form {
 .flex {
   display: flex;
   gap: 30px;
+}
+
+.flex > :first-child {
+  width: 70%;
+}
+
+.flex > :last-child {
+  width: 30%;
 }
 
 main {

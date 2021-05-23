@@ -226,6 +226,7 @@ form {
   font-size: 15px;
 }
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -234,6 +235,12 @@ form {
   background-color: var(--gray);
   padding: 30px;
   min-width: 248px;
+}
+
+.card > i.topright {
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
 
 .AfficherPlus{

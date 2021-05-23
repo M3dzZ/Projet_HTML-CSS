@@ -399,6 +399,11 @@ main {
   background-color: var(--white);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   overflow: hidden;
+  transition: transform 250ms;
+}
+
+.parentActivites > *:hover {
+  transform: scale(1.05);
 }
 
 .VieuxPort {

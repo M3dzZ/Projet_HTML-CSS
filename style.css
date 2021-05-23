@@ -497,10 +497,6 @@ footer h1 {
     min-width: 40px;
   }
 
-  .parent {
-    grid-template-columns: 1fr;
-  }
-
   .parentActivites {
     grid-template-columns: 1fr;
     grid-template-areas: unset;
@@ -522,8 +518,4 @@ footer h1 {
 
 /* breakpoint for ipad devices */
 @media screen and (min-width: 500px) and (max-width: 810px){
-
-  .parent{
-    grid-template-columns:1fr 1fr;
-  }
 }

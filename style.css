@@ -403,9 +403,7 @@ form {
   height: 100%;
 }
 
-#footer {
-  display: flex;
-  justify-content: space-around;
+footer {
   font-size: 12px;
   background-color: var(--gray);
   padding: 30px;

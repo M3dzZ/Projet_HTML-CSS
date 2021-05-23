@@ -327,16 +327,14 @@ form {
 }
 
 .card-footer {
-  position: absolute;
-  bottom: 0;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 30px;
-  width: 100%;
   padding: 10px;
   background-color: var(--white);
   font-weight: bold;
+  transform: translateY(calc(-100% - 4px));
 }
 
 .parentLong-card{

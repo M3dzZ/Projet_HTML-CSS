@@ -48,6 +48,7 @@ h3{
 a {
   display: flex;
   font-size: 14px;
+  cursor: pointer;
 }
 
 #logo{
@@ -412,6 +413,16 @@ footer {
   justify-content: flex-start;
 }
 
+footer .col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+footer h1 {
+  margin-bottom: 10px;
+}
+
 .wrapper{
   display: flex;
   width: 70%;
@@ -502,12 +513,10 @@ footer {
     max-height: 200px;
   }
 
-  #footer > .wrapper {
+  footer > .wrapper {
     flex-direction: column;
     gap: 30px;
   }
-
-
 }
 
 

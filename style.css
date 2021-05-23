@@ -55,6 +55,10 @@ a {
   justify-content: flex-start;
 }
 
+#logo, #signup {
+  border: none;
+}
+
 nav {
   padding: 0 20px;
   display: grid;
@@ -467,9 +471,13 @@ footer h1 {
     justify-content: center;
   }
 
-  .box:focus {
+  .box:hover {
     border-top: unset;
     border-bottom: 2px solid var(--blue);
+  }
+
+  .box {
+    border-bottom: 1px solid var(--gray);
   }
 
   .card:first-child {

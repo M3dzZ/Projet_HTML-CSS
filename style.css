@@ -494,6 +494,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-areas: unset;
     grid-template-rows: unset;
+    height: 100%;
   }
 
   .parentActivites > * {

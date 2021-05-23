@@ -24,7 +24,7 @@ body {
   height: 20px;
 }
 
-.title {
+h1 {
   font-size: 18px;
   font-weight: bold;
   display: flex;

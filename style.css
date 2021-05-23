@@ -32,7 +32,7 @@ body {
   justify-content: space-between;
   margin:unset;
 }
-.subtitle {
+h2 {
   display: flex;
   font-size: 14px;
   top: 90px;

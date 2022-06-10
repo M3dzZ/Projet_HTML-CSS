@@ -13,7 +13,7 @@ Dans le but de développer mes compétences en HTML et en CSS, j'ai intégré un
 <li>Intégrer une maquette en site web.</li>
 <li>Réaliser un site responsive.</li>
 <li>Utiliser des animations CSS.</li>
-<li>Respecter l'identité graphique./li>
+<li>Respecter l'identité graphique.</li>
 
 </ul>
 

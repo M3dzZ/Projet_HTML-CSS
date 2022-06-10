@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="100%" src="./mockups/Desktop-1.png" />
+  <img width="50%" src="./mockups/Desktop-1.png" />
 </p>
 
 <h1>Contexte</h1>
